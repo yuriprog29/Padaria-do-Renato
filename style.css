@@ -1,0 +1,10 @@
+header {
+    background-color: #b0594a;
+    padding: 40px;
+    /* ele habilita as opcoes do flexbox */
+    display: flex;
+    /* alinhamento vertical */
+    justify-content: space-evenly;
+    /* alinhamento horizontal */
+}
+
