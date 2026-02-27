@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,94 @@
 
 
 <body>
-      <!-- cabeçalho do site -->
-      <header>
-      <img src="imagens/logo.png" alt="logo padaria">
+    <!-- cabeçalho do site -->
+    <header>
+        <img src="imagens/logo.png" alt="logo" class="logo">
+        <button class="botoes">PRODUTOS</button>
     </header>
 
+
+    <main>
+        <section class="primeira-section">
+            <div>
+                <img src="imagens/produtos.png" alt="imagem céu">
+            </div>
+
+
+            <div>
+                <h3>Peça já aqui <br> Descubra Nossas Delicias</h3>
+                <a href ="cadastro.html " target="_blank"><button>CADASTRE-SE</button></a>
+            </div>
+        </section>
+
+
+        <section class="segunda-section">
+            <h2>Promoções e Descontos</h2>
+
+            <table class="tabela" border="4">
+                <tr>
+                    <th>Produto</th>
+                    <th>Categoria</th>
+                    <th>Preço Normal</th>
+                    <th>Preço Promocional</th>
+                    <th>Disponibilidade</th>
+                </tr>
+            
+                <tr>
+                    <td>Pão Francês</td>
+                    <td>Pães</td>
+                    <td>R$ 0,80</td>
+                    <td>R$ 0,65</td>
+                    <td>Todos os dias</td>
+                </tr>
+
+                <tr>
+                    <td>Bolo de Chocolate</td>
+                    <td>Bolos</td>
+                    <td>R$ 25,00</td>
+                    <td>R$ 20,00</td>
+                    <td>Fim de semana</td>
+                </tr>
+            
+                <tr>
+                    <td>Sonho Recheado</td>
+                    <td>Doces</td>
+                    <td>R$ 8,00</td>
+                    <td>R$ 6,50</td>
+                    <td>Enquanto durar o estoque</td>
+                </tr>
+            </table>
+
+        </section>
+
+
+        <section class="terceira-section">
+            <p>Existem coisas que o tempo não muda, e o prazer de saborear um pão feito com calma, respeito e carinho é
+                uma delas. Na PADOCA DO RENATO, nós não apenas assamos produtos; nós resgatamos a essência da
+                panificação clássica para transformar o seu dia a dia.</p>
+            <img src="imagens/paes.png" alt="imGEM DOS paes">
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagens/logo.png" alt="logo">
+        <p> 2026 todos direitos reservados</p>
+    </footer>
+
+
+
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
 </body>
+
 </html>

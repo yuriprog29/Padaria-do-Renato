@@ -1,5 +1,5 @@
 header {
-    background-color: #b0594a;
+    background-color: #834841;
     padding: 40px;
     /* ele habilita as opcoes do flexbox */
     display: flex;
@@ -8,3 +8,90 @@ header {
     /* alinhamento horizontal */
 }
 
+.logo {
+    width: 20%;
+}
+
+.botoes {
+    background: linear-gradient(30deg, #834841, #945750);
+    color: white;
+    padding: 5px 12px;
+    height: 35px;        /* diminui altura */
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.3s
+}
+
+.botao:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+
+.primeira-section {
+    background-color: #b5746d;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.primeira-section img {
+    width: 300px;
+}
+
+.primeira-section button {
+    background-color:#834841;
+    padding: 10px;
+    width: 250px;
+    color: #000000;
+}
+
+.segunda-section {
+    background-color: #945750;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.tabela {
+    background-color:#b5746d;
+}
+
+.terceira-section {
+    background-color: #c5837b;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.terceira-section img {
+    width: 600px;
+    
+}
+
+p {
+    font-size: 40px;
+    
+  
+}
+
+footer {
+    background-color: #b5746d;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+footer img{
+    width: 100px;
+}
