@@ -1,42 +1,81 @@
 header {
     background-color: #834841;
+    /* Define a cor de fundo do header */
     padding: 40px;
-    /* ele habilita as opcoes do flexbox */
+    /* Espaçamento interno (espaço dentro do header) */
     display: flex;
-    /* alinhamento vertical */
+    /* Ativa o Flexbox para organizar os elementos */
     justify-content: space-evenly;
-    /* alinhamento horizontal */
+    /* Distribui os elementos com espaço igual entre eles */
+}
+
+h1 {
+    font-size: 50px;
 }
 
 .logo {
     width: 20%;
+    /* Define a largura da logo como 20% do elemento pai */
 }
 
+img {
+    width: 20%;
+
+}
+
+/* Estilização dos botões */
 .botoes {
-    background: linear-gradient(30deg, #834841, #945750);
+    background: linear-gradient(30deg, #834841, #ac6b6b);
+    /* Cria um fundo com gradiente inclinado em 30 graus */
     color: white;
+    /* Define a cor do texto como branca */
     padding: 5px 12px;
-    height: 35px;        /* diminui altura */
+    /* Espaçamento interno (5px cima/baixo, 12px lados) */
+    height: 40px;
+    /* Altura fixa do botão */
     border: none;
+    /* Remove a borda padrão */
     border-radius: 30px;
+    /* Deixa as bordas arredondadas */
     font-size: 18px;
+    /* Tamanho da fonte */
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    transition: 0.3s
+    /* Deixa o texto em negrito */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Adiciona sombra (x, y, desfoque, cor) */
+
+    transition: 0.3s;
+    /* Anima mudanças em 0.3 segundos */
 }
 
+/* Efeito quando o mouse passa por cima */
 .botao:hover {
-    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    /* Aumenta a sombra ao passar o mouse */
+
     transform: translateY(-3px);
+    /* Move o botão 3px para cima */
 }
 
 
+
+
+/* Primeira seção do site */
 .primeira-section {
     background-color: #b5746d;
+    /* colocando cor na caixa da primeira seçaõ */
     padding: 10px;
+    /* Espaçamento interno (espaço dentro do header) */
     display: flex;
+    /* Ativa o Flexbox para organizar os elementos */
     align-items: center;
     justify-content: space-evenly;
+
+    background-image: url("logo.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
 
 }
 
@@ -44,24 +83,72 @@ header {
     width: 300px;
 }
 
+/* estilizando o botao */
 .primeira-section button {
-    background-color:#834841;
-    padding: 10px;
-    width: 250px;
+     background: linear-gradient(30deg, #834841, #b5746d); 
+    /* Cria um fundo com gradiente inclinado em 30 graus */
+    color: white;
+    /* Define a cor do texto como branca */
+    padding: 5px 12px;
+    /* Espaçamento interno (5px cima/baixo, 12px lados) */
+    height: 40px;
+    /* Altura fixa do botão */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 30px;
+    /* Deixa as bordas arredondadas */
+    font-size: 18px;
+    /* Tamanho da fonte */
+    font-weight: bold;
+    /* Deixa o texto em negrito */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    /* Adiciona sombra (x, y, desfoque, cor) */
+
+    transition: 0.3s;
+    /* Anima mudanças em 0.3 segundos */
+}
+
+/* Efeito quando o mouse passa por cima */
+.botao:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    /* Aumenta a sombra ao passar o mouse */
+
+    transform: translateY(-3px);
+    /* Move o botão 3px para cima */
+}
+
+
+
+/* segunda section */
+
+.segunda-section {
+    background-image: url(imagens/paes.png);
+    /* colocando a imagem no fundo da section */
+    background-position: center;
+    /* posionamento da imagem */
+    background-repeat: no-repeat;
+    /* desabilitando repetição da imagem */
+    background-size: cover;
+    /* prencimento total do espaço da imagem  */
+    background-attachment: fixed;
+    /* tornando a imagem fixa na section */
+    padding: 80px; /* Adiciona espaçamento interno em todos os lados */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.tabela {
+    background-color: #b5746d;
+}
+
+.promo {
+    font-size: 70px;
     color: #000000;
 }
 
-.segunda-section {
-    background-color: #945750;
-    padding: 80px;
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-}
 
-.tabela {
-    background-color:#b5746d;
-}
 
 .terceira-section {
     background-color: #c5837b;
@@ -74,13 +161,13 @@ header {
 
 .terceira-section img {
     width: 600px;
-    
+
 }
 
 p {
     font-size: 40px;
-    
-  
+
+
 }
 
 footer {
@@ -92,6 +179,6 @@ footer {
 
 }
 
-footer img{
+footer img {
     width: 100px;
 }
